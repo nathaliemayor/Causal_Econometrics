@@ -8,7 +8,7 @@ The data used can be found in the 'data' subfolders.
 
 ## [Final_Project](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/Final_Project)
 
-We compare two estimators (IPW, OLS) via a Monte Carlo simulation study within the CIA research design. We code our own estimators and generate three data generating processes such that, in the first DGP, the first estimator outperforms the second estimator, in the second DGP, the second estimator outperforms the first estimator and finally that the third DGP violates one identyfing assumption. We then introduce some performance measures (MSE, bias and variance) in order to compare both estimators.
+We compare two estimators (IPW, OLS) via a Monte Carlo simulation study within the CIA research design. We code our own estimators and generate three data generating processes such that, in the first DGP, the first estimator outperforms the second estimator, in the second DGP, the second estimator outperforms the first estimator and finally that the third DGP violates one identyfing assumption (conditional independence assumption). We then introduce some performance measures (MSE, bias and variance) in order to compare both estimators.
 
 ## [A1_Experiments](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/A1_Experiments)
 

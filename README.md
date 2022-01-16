@@ -6,6 +6,10 @@ The data used can be found in the 'data' subfolders.
 
 # Specifications on Folders
 
+## [Final_Project](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/Final_Project)
+
+We compare two estimators (IPW, OLS) via a Monte Carlo simulation study within the CIA research design. We code our own estimators and generate three data generating processes such that, in the first DGP, the first estimator outperforms the second estimator, in the second DGP, the second estimator outperforms the first estimator and finally that the third DGP violates one identyfing assumption. We then introduce some performance measures (MSE, bias and variance) in order to compare both estimators.
+
 ## [A1_Experiments](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/A1_Experiments)
 
 We analyze the effects of temporary employment programs for disadvantaged workers in the US (ref. National Supported Work Demonstration (NSW)). In particular, the NSW randomly assigned applicants to the training program. While the treatment group received 9 to 18 months of subsidized employment and some additional support, the control group did not receive any assistance from the program. In 1978 the earnings of the participants in the treatment and control group (re78) were collected and compared. Some pre-treatment variables for both groups were measured as well. 

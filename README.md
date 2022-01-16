@@ -16,10 +16,11 @@ Low birth weight is associated with negative labour market and educational outco
 
 We estimate the ATE by OLS with and without covariates.
 
-## [A3_Causal_Trees]()
+## [A3_Causal_Trees](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/A3_Causal_Trees)
 
+We predict the outcome Y with the covariate X, coding our own function to find out where an SSE optimizing Regression Tree algorithm place the splits. The function gives back the best splitting value of the covariate X, the resulting optimal SSE splitting value and the row index of the corresponding optimal X value. The resulting tree leaves contain at least certain number of observations that can be defined. 
 
-
+## [A4_Differences-in-Differences]()
 
 ## References
 

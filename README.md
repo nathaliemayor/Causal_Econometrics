@@ -25,9 +25,11 @@ We use a random sample of data coming from the case study of David Card and Alan
 
 First, we estimate the effect of higher minimum wages on full time equivalent employment in fast food restaurants by mean difference between New Jersey and Pennsylvania after the policy change. Second, we estimate the effect of higher minimum wages on full time equivalent employment in fast food restaurants by mean difference in New Jersey before and after the policy change. 
 
-## [A5_Instrument_Variables]()
+## [A5_Instrumental_Variables](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/A5_Instrumental_Variables)
 
+Angrist and Evans (1998) [[5]](#5) investigate the causal effect of fertility on labor supply of women. They exploit parental preferences for a heterogeneous sibling-sex composition to construct instrumental variables estimates of the effect of childbearing on labor-market outcomes. We use sample of US women in 1980 and 1990 based on data of their study. 
 
+First, we estimate the coefficients by OLS and find the estimated average effect of having more than two kids on weeks worked per year. Second, we use the instrumental variable (Dummy: 1 if second birth was a multiple birth). We compute the 2SLS estimator by plugging the fitted OLS values of the first stage into the second stage.
 
 ## References
 
@@ -42,3 +44,7 @@ Walker, M., Tekin, E., & Wallace, S. (2009). Teen smoking and birth outcomes. So
 
 <a id="4">[4]</a> 
 Card, David, and Alan B. Krueger (1994). Minimum Wages and Employment: A Case Study of the New Jersey and Pennsylvania Fast Food Industries. American Economic Review, 84:4, 772–793.
+
+<a id="5">[5]</a> 
+Angrist, J., & Evans, W. (1998). Children and Their Parents' Labor Supply: Evidence from Exogenous Variation in Family Size. The American Economic Review, 88(3), 450- 477.
+

@@ -21,6 +21,13 @@ We estimate the ATE by OLS with and without covariates.
 We predict the outcome Y with the covariate X, coding our own function to find out where an SSE optimizing Regression Tree algorithm place the splits. The function gives back the best splitting value of the covariate X, the resulting optimal SSE splitting value and the row index of the corresponding optimal X value. The resulting tree leaves contain at least certain number of observations that can be defined. 
 
 ## [A4_Differences-in-Differences](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/A4_Differences-in-Differences)
+We use a random sample of data coming from the case study of David Card and Alan B. Krueger (1994) [[4]](#4) that analyses the effect of higher minimum wages on employment in the US fast-food sector based on panel data. It uses a rise in New Jersey’s minimum wage in 1992 to evaluate employment changes in restaurants induced by the policy change compared to employment in Pennsylvania, where the minimum wage remained constant. 
+
+First, we estimate the effect of higher minimum wages on full time equivalent employment in fast food restaurants by mean difference between New Jersey and Pennsylvania after the policy change. Second, we estimate the effect of higher minimum wages on full time equivalent employment in fast food restaurants by mean difference in New Jersey before and after the policy change. 
+
+## [A5_Instrument_Variables]()
+
+
 
 ## References
 
@@ -32,3 +39,6 @@ da Veiga, P. V. & Wilder, R. P. (2008). Maternal smoking during pregnancy and bi
 
 <a id="3">[3]</a> 
 Walker, M., Tekin, E., & Wallace, S. (2009). Teen smoking and birth outcomes. Southern Economic Journal 75 (3), 892-907.
+
+<a id="4">[4]</a> 
+Card, David, and Alan B. Krueger (1994). Minimum Wages and Employment: A Case Study of the New Jersey and Pennsylvania Fast Food Industries. American Economic Review, 84:4, 772–793.

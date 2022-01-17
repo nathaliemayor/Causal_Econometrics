@@ -2,6 +2,7 @@
 
 This repository contains Python code for a Causal Econometrics (M.A.) course at UNISG.
 
+The data used can be found in the 'data' subfolders.
 
 # Specifications on Folders
 
@@ -33,6 +34,8 @@ First, we estimate the effect of higher minimum wages on full time equivalent em
 Angrist and Evans (1998) [[5]](#5) investigate the causal effect of fertility on labor supply of women. They exploit parental preferences for a heterogeneous sibling-sex composition to construct instrumental variables estimates of the effect of childbearing on labor-market outcomes. We use sample of US women in 1980 and 1990 based on data of their study. 
 
 First, we estimate the coefficients by OLS and find the estimated average effect of having more than two kids on weeks worked per year. Second, we use the instrumental variable (Dummy: 1 if second birth was a multiple birth). We compute the 2SLS estimator by plugging the fitted OLS values of the first stage into the second stage.
+
+![Impulse response of GDP growth from a positive shock in the nominal short interest rate](https://github.com/nathaliemayor/Macroeconometrics/blob/main/irf.png?raw=true)
 
 ## References
 

@@ -2,8 +2,6 @@
 
 This repository contains Python code for a Causal Econometrics (M.A.) course at UNISG.
 
-The data used can be found in the 'data' subfolders.
-
 # Specifications on Folders
 
 ## [Final_Project](https://github.com/nathaliemayor/Causal_Econometrics/tree/main/Final_Project)

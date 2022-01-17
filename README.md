@@ -35,8 +35,6 @@ Angrist and Evans (1998) [[5]](#5) investigate the causal effect of fertility on
 
 First, we estimate the coefficients by OLS and find the estimated average effect of having more than two kids on weeks worked per year. Second, we use the instrumental variable (Dummy: 1 if second birth was a multiple birth). We compute the 2SLS estimator by plugging the fitted OLS values of the first stage into the second stage.
 
-![Impulse response of GDP growth from a positive shock in the nominal short interest rate](https://github.com/nathaliemayor/Macroeconometrics/blob/main/irf.png?raw=true)
-
 ## References
 
 <a id="1">[1]</a> 

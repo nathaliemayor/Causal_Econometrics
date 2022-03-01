@@ -19,8 +19,6 @@ from numpy.random import seed
 import matplotlib.pyplot as plt
 from scipy.stats import bernoulli
 import statsmodels.api as sm
-
-# set working directory
 import os 
 
 # set working directory
